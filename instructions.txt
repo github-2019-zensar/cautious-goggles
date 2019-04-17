@@ -1,0 +1,15 @@
+Distributed Version Control Systems
+With a distributed version control system, each client doesn't just pull down the latest file snapshot, 
+they fully mirror the project by pulling down the entire project so everyone has a local copy of that 
+entire project's history. Every time a client pulls down that repository or project to their local client
+ computer, they essentially are doing a full backup of all of the data each time they check out that 
+ project. Now with this model, if the server dies or becomes corrupt, any of the client projects 
+ collaborating with that server can be copied back up to the server to restore it. 
+ 
+ A distributed version control system allows for collaboration with many clients simultaneously within 
+ the same project. This allows for many different project workflows that a local or centralized version
+ control system don't support. Because of this, and the advantages that a distributed version control 
+ system brings, this is the version control system of choice for most projects, and it's the type of 
+ version control system that Git is. So now that we know that Git is a distributed version control system,
+ and why software teams should use it in their projects, I think it's important to know why Git was created
+ in the first place.
